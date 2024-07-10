@@ -31,6 +31,7 @@ return {
     ["@type.builtin"] = { fg = p.magenta },
     ["@variable"] = { fg = p.fg } + styles.variables,
     ["@lsp.typemod.variable.declaration"] = { fg = p.fg } + styles.variables,
+    ["@lsp.typemod.variable.declaration.typescript"] = { fg = p.fg } + styles.variables,
     ["@variable.builtin"] = { fg = p.purple } + styles.variables,
     ["@variable.parameter"] = { fg = p.magenta } + styles.variables,
     ["@constructor.javascript"] = { fg = p.red },
