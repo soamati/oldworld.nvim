@@ -1,7 +1,7 @@
 local p = require("oldworld.palette")
 
 return {
-    TelescopeBorder = { fg = p.bg, bg = p.bg },
+    TelescopeBorder = { fg = p.gray3, bg = p.bg },
     TelescopeNormal = { fg = p.fg, bg = p.bg },
     TelescopePreviewTitle = { fg = p.bg, bg = p.bg },
     TelescopeResultsTitle = { fg = p.bg, bg = p.bg },
