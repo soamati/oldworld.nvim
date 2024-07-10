@@ -11,7 +11,7 @@ end, config.styles)
 
 return {
     Comment = { fg = p.subtext3 } + styles.comments, -- any comment
-    Constant = { fg = p.cyan }, -- any constant
+    Constant = { fg = p.red }, -- any constant
     String = { fg = p.green }, -- a string constant: "this is a string"
     Character = { fg = p.green }, -- a character constant: 'p', '\n'
     Number = { fg = p.magenta }, -- a number constant: 234, 0xff
