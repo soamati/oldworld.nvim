@@ -4,6 +4,7 @@ local default_config = {
     terminal_colors = true,
     styles = {
         comments = {},
+        constants = {},
         keywords = {},
         identifiers = {},
         functions = {},
