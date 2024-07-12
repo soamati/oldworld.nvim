@@ -7,7 +7,7 @@ return {
     lCursor = { fg = p.black, bg = p.fg }, -- the character under the cursor
     CursorIM = { fg = p.black, bg = p.fg }, -- the character under the cursor
     CursorLine = { bg = p.gray1 }, -- the screen line that the cursor is in when 'cursorline' is set
-    Directory = { fg = p.purple }, -- directory names (and other special names in listings)
+    Directory = { fg = p.green }, -- directory names (and other special names in listings)
     DiffAdd = { bg = p.green, fg = p.black }, -- diff mode: Added line
     DiffChange = { fg = p.yellow, underline = true }, -- diff mode: Changed line
     DiffDelete = { bg = p.orange, fg = p.black }, -- diff mode: Deleted line
