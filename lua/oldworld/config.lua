@@ -47,6 +47,7 @@ function config.setup(opts)
         elseif k == "styles" then
             for style_key, style_value in pairs(v) do
                 if default_config.styles[style_key] ~= nil then
+                    style_value.italic = false
                     config.styles[style_key] =
                         vim.tbl_deep_extend("keep", default_config.styles[style_key], style_value)
                 end
