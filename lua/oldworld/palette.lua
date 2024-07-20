@@ -1,7 +1,6 @@
 local codesandbox = require("oldworld.variants.codesandbox")
 
 local palette = {
-    -- bg = "#161617",
     bg = "#141415",
     fg = "#c9c7cd",
     subtext1 = "#b4b1ba",
@@ -36,4 +35,4 @@ local palette = {
     none = "NONE",
 }
 
-return codesandbox
+return palette
