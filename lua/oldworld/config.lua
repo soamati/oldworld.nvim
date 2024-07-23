@@ -31,7 +31,7 @@ local default_config = {
         rainbow_delimiters = true,
         telescope = true,
         treesitter = true,
-        dashboard_nvim = true
+        dashboard_nvim = true,
         illuminate = true,
     },
     highlight_overrides = {},
