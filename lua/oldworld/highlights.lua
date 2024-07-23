@@ -26,6 +26,7 @@ local integrations_highlights = {
     telescope = require("oldworld.groups.integrations.telescope"),
     treesitter = require("oldworld.groups.integrations.treesitter"),
     dashboard_nvim = require("oldworld.groups.integrations.dashboard_nvim"),
+    illuminate = require("oldworld.groups.integrations.illuminate"),
 }
 local integrations = {}
 

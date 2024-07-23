@@ -32,6 +32,7 @@ local default_config = {
         telescope = true,
         treesitter = true,
         dashboard_nvim = true
+        illuminate = true,
     },
     highlight_overrides = {},
 }

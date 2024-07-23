@@ -6,7 +6,12 @@ Why not simply fork it? I've thought about it carefully, but my idea with the th
 
 ## 📷 Preview
 
-![image](https://github.com/dgox16/oldworld.nvim/assets/90411765/365be514-8a05-48ef-b879-95531d7677d4)
+![Oldworld.nvim](https://github.com/user-attachments/assets/bb0c211d-4488-44bf-ace4-c695642177e4)
+
+## 🎨 Pallete
+
+![oldworld (1)](https://github.com/user-attachments/assets/0e0db774-92ac-4cda-93b4-9c3cd38a68c2)
+
 
 ## 📦 Installation
 
@@ -90,4 +95,4 @@ It's my first theme and my first Neovim plugin. I know in advance that there wil
 
 ## 🎙️ Acknowledgements
 
-- [mellow.nvim](https://github.com/mellow-theme/mellow.nvim) used its amazing color palette and styles as a base.
+-   [mellow.nvim](https://github.com/mellow-theme/mellow.nvim) used its amazing color palette and styles as a base.
