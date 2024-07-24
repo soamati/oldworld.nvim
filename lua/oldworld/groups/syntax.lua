@@ -12,7 +12,7 @@ end, config.styles)
 return {
     Comment = { fg = p.subtext3 } + styles.comments, -- any comment
     Constant = { fg = p.red } + styles.constants, -- any constant
-    String = { fg = p.green }, -- a string constant: "this is a string"
+    String = { fg = p.overrides.yellow }, -- a string constant: "this is a string"
     Character = { fg = p.green }, -- a character constant: 'p', '\n'
     Number = { fg = p.magenta }, -- a number constant: 234, 0xff
     Boolean = { fg = p.yellow } + styles.booleans, -- a boolean constant: TRUE, false

@@ -33,6 +33,9 @@ local palette = {
     gray4 = "#3b3b3e",
     -- Special
     none = "NONE",
+    overrides = {
+    yellow = "#f6c177"
+  }
 }
 
 return palette
