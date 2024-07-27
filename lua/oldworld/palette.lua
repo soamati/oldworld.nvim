@@ -1,23 +1,3 @@
-local oldtown = {
-	red = "#e87379",
-	green = "#80a88e",
-	yellow = "#e6b99d",
-	blue = "#92a2d5",
-	purple = "#c77a9a",
-	cyan = "#85b5ba",
-	orange = "#e8a070",
-	magenta = "#e3a7c5",
-
-	bright_red = "#ea8186",
-	bright_green = "#9ac7a5",
-	bright_yellow = "#eac5ae",
-	bright_blue = "#a7b3dd",
-	birght_purple = "#d89ab8",
-	bright_cyan = "#97c0c4",
-	bright_orange = "#f8b78a",
-	bright_magenta = "#f1bed8",
-}
-
 local palette = {
 	bg = "#141415",
 	fg = "#c9c7cd",
@@ -27,6 +7,7 @@ local palette = {
 	subtext4 = "#6c6874",
 	bg_dark = "#131314",
 	black = "#27272a",
+	true_red = "#ea83a5",
 	red = "#ff8080",
 	green = "#90b99f",
 	yellow = "#e6b99d",
@@ -52,14 +33,5 @@ local palette = {
 	-- Special
 	none = "NONE",
 }
-
-if vim.g.oldworld_use_oldtown == true then
-	for key, value in pairs(palette) do
-		local oldtown_color = oldtown[key]
-		if oldtown_color ~= nil then
-			palette[key] = oldtown_color
-		end
-	end
-end
 
 return palette
