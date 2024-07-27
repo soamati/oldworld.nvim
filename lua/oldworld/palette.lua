@@ -76,7 +76,7 @@ local palette = {
 if vim.g.oldworld_use_oldtown == true then
 	for key, value in pairs(palette) do
 		if oldtown_vivid[key] ~= nil then
-			palette[key] = oldtown[key]
+			palette[key] = oldtown_vivid[key]
 		end
 	end
 end
