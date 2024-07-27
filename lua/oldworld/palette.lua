@@ -1,7 +1,7 @@
 local oldtown = {
 	red = "#e87379",
 	green = "#80a88e",
-	yellow = "#e8bd60",
+	yellow = "#e6b99d",
 	blue = "#6ab0f6",
 	purple = "#c77a9a",
 	cyan = "#6fc4d9",
@@ -10,7 +10,7 @@ local oldtown = {
 
 	bright_red = "#e87379",
 	bright_green = "#9ac7a5",
-	bright_yellow = "#f8d97c",
+	bright_yellow = "#eac5ae",
 	bright_blue = "#7fb9f7",
 	birght_purple = "#d89ab8",
 	bright_cyan = "#7fd0e3",
