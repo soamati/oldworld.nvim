@@ -15,7 +15,7 @@ return {
     ["@constant.builtin"] = { fg = p.yellow },
     ["@keyword.function"] = { fg = p.purple } + styles.functions,
     ["@namespace"] = { fg = p.red, italic = true },
-    ["@parameter"] = { fg = p.orange },
+    ["@parameter"] = { fg = p.bright_orange },
     ["@property"] = { fg = p.fg } + styles["@property"],
     ["@punctuation"] = { fg = p.subtext1 },
     ["@punctuation.delimiter"] = { fg = p.subtext1 },
