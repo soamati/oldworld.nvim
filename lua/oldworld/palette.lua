@@ -1,39 +1,19 @@
-local oldtown_vivid = {
-	red = "#f7b3b3",
-	green = "#a8cbb8",
-	yellow = "#f9e1a2",
-	blue = "#6ab0f6",
-	purple = "#d89ab8",
-	cyan = "#6fc4d9",
-	orange = "#f9c4a7",
-	magenta = "#f4c1d3",
-
-	bright_red = "#f7b3b3",
-	bright_green = "#b8d8c7",
-	bright_yellow = "#fbe9a1",
-	bright_blue = "#7fb9f7",
-	bright_purple = "#e1b7c5",
-	bright_cyan = "#7fd0e3",
-	bright_orange = "#fbc6a7",
-	bright_magenta = "#f6c3d7",
-}
-
 local oldtown = {
 	red = "#e87379",
 	green = "#80a88e",
 	yellow = "#e8bd60",
-	blue = "#4b84c8",
-	purple = "#b06085",
-	cyan = "#4ba3b5",
+	blue = "#6ab0f6",
+	purple = "#c77a9a",
+	cyan = "#6fc4d9",
 	orange = "#e8a070",
 	magenta = "#e3a7c5",
 
 	bright_red = "#e87379",
 	bright_green = "#9ac7a5",
 	bright_yellow = "#f8d97c",
-	bright_blue = "#5d9bea",
-	bright_purple = "#c77a9a",
-	bright_cyan = "#5fc0d0",
+	bright_blue = "#7fb9f7",
+	birght_purple = "#d89ab8",
+	bright_cyan = "#7fd0e3",
 	bright_orange = "#f8b78a",
 	bright_magenta = "#f1bed8",
 }
@@ -75,8 +55,9 @@ local palette = {
 
 if vim.g.oldworld_use_oldtown == true then
 	for key, value in pairs(palette) do
-		if oldtown_vivid[key] ~= nil then
-			palette[key] = oldtown_vivid[key]
+		oldtown_color = oldtown[key]
+		if oldtown_color ~= nil then
+			palette[key] = oldtown_color
 		end
 	end
 end
