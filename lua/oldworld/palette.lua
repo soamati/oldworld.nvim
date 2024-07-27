@@ -1,5 +1,3 @@
-local codesandbox = require("oldworld.variants.codesandbox")
-
 local palette = {
     bg = "#141415",
     fg = "#c9c7cd",
