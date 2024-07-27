@@ -10,6 +10,7 @@ local default_config = {
         functions = {},
         variables = {},
         booleans = {},
+        ["@property"] = {}
     },
     integrations = {
         alpha = true,
