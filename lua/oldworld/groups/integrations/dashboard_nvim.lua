@@ -1,5 +1,5 @@
 local p = require("oldworld.palette")
 
 return {
-	DashboardHeader = { fg = p.yellow },
+	DashboardHeader = { fg = p.red },
 }
