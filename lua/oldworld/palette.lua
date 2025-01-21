@@ -1,36 +1,42 @@
 local palette = {
-	bg = "#1D1F21", -- Dark background
-	fg = "#C5C8C6", -- Light foreground text
-	subtext1 = "#969896", -- Dimmed text for less prominent info
-	subtext2 = "#B4B7B4", -- Slightly brighter subtext
-	subtext3 = "#C5C8C6", -- Regular subtext
-	subtext4 = "#E0E0E0", -- Brightest subtext
-	bg_dark = "#282A2E", -- Slightly lighter dark background
-	black = "#373B41", -- Bright black (dark gray)
-	red = "#FF6C6B", -- Bright red
-	green = "#C7E785", -- Bright green
-	yellow = "#FFD700", -- Bright yellow
-	purple = "#DFAF8F", -- Bright purple
-	blue = "#5FAFFF", -- Bright blue
-	cyan = "#A1EFE4", -- Bright cyan
-	magenta = "#FF79C6", -- Bright magenta
-	orange = "#FFA500", -- Bright orange
-	bright_black = "#373B41", -- Bright black (dark gray)
-	bright_red = "#FF6C6B", -- Bright red
-	bright_green = "#C7E785", -- Bright green
-	bright_yellow = "#FFD700", -- Bright yellow
-	bright_purple = "#DFAF8F", -- Bright purple
-	bright_blue = "#5FAFFF", -- Bright blue
-	bright_cyan = "#A1EFE4", -- Bright cyan
-	bright_magenta = "#FF79C6", -- Bright magenta
-	bright_orange = "#FFA500", -- Bright orange
-	gray0 = "#282A2E", -- Deep gray
-	gray1 = "#373B41", -- Slightly lighter gray
-	gray2 = "#44475A", -- Medium gray
-	gray3 = "#565761", -- Light gray
-	gray4 = "#6D707A", -- Lightest gray
-	-- Special
-	none = "NONE", -- Placeholder for "no color"
+	bg = "#000000",
+	fg = "#ffffff",
+	bg_dark = "#000000",
+
+	subtext1 = "#d0d0d0",
+	subtext2 = "#d0d0d0",
+	subtext3 = "#d0d0d0",
+	subtext4 = "#d0d0d0",
+
+	black = "#000000",
+	red = "#fe0100",
+	green = "#33ff00",
+	yellow = "#feff00",
+	magenta = "#cc00ff",
+	blue = "#0066ff",
+	cyan = "#00ffff",
+	white = "#d0d0d0",
+	purple = "#9900cc",
+	orange = "#ff6600",
+
+	bright_black = "#808080",
+	bright_red = "#fe0100",
+	bright_green = "#33ff00",
+	bright_yellow = "#feff00",
+	bright_magenta = "#cc00ff",
+	bright_blue = "#0066ff",
+	bright_cyan = "#00ffff",
+	bright_white = "#d0d0d0",
+	bright_purple = "#9900cc",
+	bright_orange = "#ff6600",
+
+	gray0 = "#808080",
+	gray1 = "#808080",
+	gray2 = "#808080",
+	gray3 = "#808080",
+	gray4 = "#808080",
+
+	none = "NONE",
 }
 
 return palette
