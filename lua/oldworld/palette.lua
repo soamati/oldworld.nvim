@@ -1,36 +1,42 @@
 local palette = {
-	bg = "#0a0a0a",
-	fg = "#c9c7cd",
-	subtext1 = "#b4b1ba",
-	subtext2 = "#9f9ca6",
-	subtext3 = "#8b8693",
-	subtext4 = "#6c6874",
-	bg_dark = "#0a0a0a",
-	black = "#27272a",
-	red = "#f49a9a",
-	green = "#9ad6a4",
-	yellow = "#f4d09a",
-	purple = "#c5bef9",
-	blue = "#85c2ff",
-	cyan = "#a8f0f0",
-	magenta = "#e6b2ce",
-	orange = "#f3b191",
-	bright_black = "#353539",
-	bright_red = "#ffb3b3",
-	bright_green = "#b3efbd",
-	bright_yellow = "#ffe9b3",
-	bright_purple = "#ded7ff",
-	bright_blue = "#9edbff",
-	bright_cyan = "#c1ffff",
-	bright_magenta = "#ebc2d8",
-	bright_orange = "#f4b89a",
-	gray0 = "#18181a",
-	gray1 = "#1b1b1c",
-	gray2 = "#2a2a2c",
-	gray3 = "#313134",
-	gray4 = "#3b3b3e",
-	-- Special
-	none = "NONE",
+  bg = "#0a0a0a", -- From original, retains deep black base
+  fg = "#e2e2e2", -- From vibrant, more legible
+  subtext1 = "#c0c0c0", -- Between boring and vibrant
+  subtext2 = "#a8a8a8",
+  subtext3 = "#949494",
+  subtext4 = "#7a7a7a",
+  bg_dark = "#000000", -- From vibrant, darker contrast base
+
+  -- Accents: vibrant but slightly muted for usability
+  black = "#1e1e1e",
+  red = "#ff4c4c", -- Vibrant
+  green = "#4cff4c", -- Vibrant
+  yellow = "#ffde4c", -- Slightly adjusted from vibrant
+  purple = "#b88cff", -- Mix of vibrant and dark
+  blue = "#4c94ff", -- Vibrant
+  cyan = "#4cffff", -- Vibrant
+  magenta = "#ff4cbf", -- Vibrant
+  orange = "#ff944c", -- Vibrant
+
+  -- Brights = same as base for visual consistency
+  bright_black = "#1e1e1e",
+  bright_red = "#ff4c4c",
+  bright_green = "#4cff4c",
+  bright_yellow = "#ffde4c",
+  bright_purple = "#b88cff",
+  bright_blue = "#4c94ff",
+  bright_cyan = "#4cffff",
+  bright_magenta = "#ff4cbf",
+  bright_orange = "#ff944c",
+
+  -- Grays from dark version for subtle UI contrast
+  gray0 = "#121212",
+  gray1 = "#1a1a1a",
+  gray2 = "#2a2a2a",
+  gray3 = "#333333",
+  gray4 = "#3e3e3e",
+
+  none = "NONE",
 }
 
 return palette
