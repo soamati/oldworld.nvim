@@ -1,11 +1,11 @@
 local palette = {
-	bg = "#0a0a0a",
+	bg = "#000000",
 	fg = "#c9c7cd",
 	subtext1 = "#b4b1ba",
 	subtext2 = "#9f9ca6",
 	subtext3 = "#8b8693",
 	subtext4 = "#6c6874",
-	bg_dark = "#0a0a0a",
+	bg_dark = "#000000",
 	black = "#27272a",
 	red = "#f49a9a",
 	green = "#9ad6a4",
